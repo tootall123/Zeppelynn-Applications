@@ -14,7 +14,7 @@ Website is currenty under construction.
 
 
 
-![image](https://user-images.githubusercontent.com/77269940/147722645-597b7f23-dc22-4256-806d-ab303ee0be71.png)
+![image](https://user-images.githubusercontent.com/77269940/147722645-597b7f23-dc22-4256-806d-ab303ee0be71.png)    ![image](https://user-images.githubusercontent.com/77269940/147730737-27819864-cec1-40b4-b83f-17eff31a11ff.png)
 
 
 
@@ -35,8 +35,6 @@ Website is currenty under construction.
 
 
 
-
-![image](https://user-images.githubusercontent.com/77269940/147730701-7fba7e84-66d2-4a5d-a7f9-cdd659d97cbb.png)
 
 
 
