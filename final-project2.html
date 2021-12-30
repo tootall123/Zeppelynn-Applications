@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Final Project</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: rgb(19, 236, 146);
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+ 
+        .firstsection {
+            background-color: rgb(1, 185, 139);
+            height: 400px;
+        }
+ 
+        .secondsection {
+            background-color: rgb(7, 131, 110);
+            height: 400px;
+            background-image: url('http://ocw.uwc.ac.za/wp-content/uploads/1221025/teal-curves-turquoise-vector-hd-wallpaper-preview.jpg?download=now');
+            background-color: transparent;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+            border-radius: 10px;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid rgb(78, 161, 134);
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid rgb(88, 196, 163);
+            border-radius: 8px;
+            background: none;
+            color: rgb(10, 241, 164);
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            margin: auto;
+            color:rgb(7, 24, 18);
+            background-color: rgb(3, 151, 95);
+            background-image: url('https://external-preview.redd.it/XX_1lR0VLOYANeHAM_J47BpcjZTwDhTz4PWkkyY9FRs.jpg?auto=webp&s=f625a412f14c03ec1dcdc7fe1b88030707299141');
+            background-color: transparent;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: rgba(0, 238, 186, 0.89);
+        }
+        .box img{
+            width: 25px;
+            display: block;
+            border-radius: 20px;
+        }
+
+        .container {
+            width: 2px;
+            height: 2px;
+            display: table;
+            background-color: black;
+        }
+
+        .container .image-container {
+            text-align: center;
+            vertical-align: middle;
+            display: table-cell;
+        }
+
+        .container .image-container img {
+            max-width: 2px;
+            max-height: 2px;
+        }
+        
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "zepp-no-backround.png">
+            </div>
+            <li><a href="#Info">Applications</a></li>
+            <li><a href="/home/tootall/Documents/School/webdesign/Learning.html">Learning</a></li>
+            <li><a href="#Info">Download</a></li>
+            <li><a href="/home/tootall/Documents/School/webdesign/About.html">About</a></li>
+       
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">Zeppelynn Applications</h1>
+                <h2>&nbsp;</h2>
+                <p class="text-small">
+                    Learning and Development for neurologically diverse children through applications and games. 
+                </p>
+            
+ 
+            </div>
+            <div class="thumbnail">
+                <img src= "android.png" width="180px" height="210px" alt="Puzzle Pieces">
+        </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="program" style="color:white">
+                    Development</h1>
+                    <h2>&nbsp;</h2> 
+                <p class="text-small" style="color:white">
+                    Zeppelynn Application supports and develops  software for children of all ages and aims to provide unique and enjoyable methods of learning and assisting neurologically diverse children and their families through fun, interactive, and open-source applications and tools compatible with all most major operating systems and mobile devices. 
+                </p>
+ 
+ 
+            </div>
+            <div class="thumbnail">
+                <img src= "dev.png" width="180px" height="210px" alt="Puzzle Pieces">
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">Projects</h1>
+            <h2>&nbsp;</h2>
+ 
+            <p class="sectionSubTag text-small" style='line-height: 20px'>
+                <img src= 'communication.png' width="50px" height="50px" style='vertical-align: middle' />
+                   Communication Social-Awareness Visual Schedules Anger Management Organization
+            </p>
+            <h3>&nbsp;</h3>
+        <div id="container">
+            <div class="image-container">
+                <img src="github2.png" width="80px" height="80px" alt="Github" />
+            </div>
+        </div>
+ 
+        </div>
+ 
+        <div class="thumbnail">
+            <img src= "img.png" alt="Project Icon">
+        </div>
+    </section>
+   
+    <div class="container">
+        <style>
+            body {
+                background-color: black;
+            }
+        </style>
+        <h4>Testing</h4>
+        <p class="text-small" style="color:white">The w3-container class is an important w3.CSS class.</p>
+      </div>
+      <img src="zepp-no-backround.png" alt="Zepp" style="width:50%">
+    <footer class="background">
+        
+            <p class="text-footer">
+                Copyright ©-All rights are reserved
+        </p>
+        
+ 
+    </footer>
+</body>
+ 
+</html>
