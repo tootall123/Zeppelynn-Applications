@@ -4,7 +4,7 @@ Web Development Project
 
 Zeppelynn Applications project is a hypothetical application and development organization that provides open source software and tools for neurologically diverse children and families.
 
-Project consists of 4 webpages a Home page, About page, Applications page, and a FAQ page as well as a non-required Github page for tracking and git practicing purposes by me. Design based off of mandatory criteria; class instructions. 
+Project consists of 4 webpages a Landing page, About page, Applications page, and a FAQ page as well as a non-required Github page for tracking and git practicing purposes by me. Design based off of mandatory criteria; class instructions. 
 
 Project is due at the end of term for final project. 
 
