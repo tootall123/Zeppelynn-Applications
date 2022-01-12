@@ -1,0 +1,56 @@
+html{
+  font-family: 'ZCOOL XiaoWei', serif !important;
+}
+
+.first h1 {
+  color: white;
+}
+
+.firt a {
+  color: white !important;
+}
+.social li{
+  font-size: 17px;
+  display: inline-block;
+  float:right;
+  padding-right: 1%;
+}
+
+li a{
+  color: white !important;
+}
+
+nav{
+  margin-top: 6%;
+  border-top: 1px solid white;
+}
+
+ a h2 {
+   color: white;
+ }
+
+a:hover {
+ text-decoration: none!important;
+  }
+
+
+.letter button a{
+  color: black;
+}
+
+.letter h1{
+  padding-top: 4%;
+}
+
+.letter button {
+  background-color: white;
+font-size: 20px;
+border-radius: 5px;
+font-variant-caps: all-petite-caps;
+}
+
+footer {
+  background-color: black;
+  color:white;
+  padding: 4%;
+}
