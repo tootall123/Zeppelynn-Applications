@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+    <title>Landing Page</title>
+    <style>
+        :root {
+  --main-white: #f0f0f0;
+  --main-red: #00ff88;
+  --main-blue: #333537;
+  --main-gray: #333537;
+}
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* A 
+*/
+
+/* 
+ * As an example: a breakpoint at 980px
+ * 980px / 16px = 61.25em
+*/
+
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* Base styles */
+/* */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* nav */
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
+  border-radius: 20px;
+}
+
+/* Welcome section */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--main-red);
+}
+
+/* Projects section */
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
+}
+
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+
+/* "Automagic" */
+/*Applications and Tools */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project {
+  background: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.code {
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+  color: #00ff88;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+  
+}
+.project-title a:hover {
+  background-color: #00ff88;
+  border-radius: 20px;
+
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.btn-show-all {
+  font-size: 2rem;
+  background: var(--main-gray);
+  transition: background 0.3s ease-out;
+}
+
+.btn-show-all:hover {
+  background: var(--main-red);
+}
+
+.btn-show-all:hover > i {
+  transform: translateX(2px);
+}
+
+.btn-show-all > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+/* Contact section */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+/* Footer */
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+/*Additional Styling
+Center img on additional pages*/
+.logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2F3134;
+
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+            background-color: #2F3134;
+        }
+        .contact1{
+            color:#00ff88;
+        }
+
+    </style>
+   
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="/home/tootall/Documents/School/webdesign/Featured.html">Featured</a>
+      </li>
+      <li>
+        <a href="/home/tootall/Documents/School/webdesign/Learning.html">Learning</a>
+      </li>
+      <li>
+        <a href="https://github.com/tootall123/Zeppelynn-Applications">Download</a>
+      </li>
+	  <li>
+        <a href="/home/tootall/Documents/School/webdesign/About.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+   </head>
+   <body>
+	   <!--Link logo to Home relative path-->
+    <div class="logo">
+        <img src= "zepp-no-backround.png">
+    </div>
+      <!-- END NAV -->
+      
+      <!-- WELCOME SECTION -->
+      
+      <section id="welcome-section" class="welcome-section">
+        <h1>Zeppelynn Apps</h1>
+        <p>Software & Application Development</p>
+      </section>
+      
+      <!-- END WELCOME SECTION -->
+      
+      <!-- START PROJECTS SECTION -->
+      <!--Icons for github-->
+	   <!--link img to Github -->
+	   
+      <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">Applications & Tools</h2>
+		<!--Needs styling-->
+      
+        <div class="projects-grid">
+          <a
+            href="https://github.com/tootall123/Zeppelynn-Applications"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="app5.jpeg"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Open Source
+              <span class="code">&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/tootall123/Zeppelynn-Applications"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="app2.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Organization and Progress Tracking 
+              <span class="code">&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/tootall123/Zeppelynn-Applications"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="app.png"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Social Interaction & Communication
+              <span class="code">&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/tootall123/Zeppelynn-Applications"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="app3.png"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Fun & Creativity
+              <span class="code">&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/tootall123/Zeppelynn-Applications"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="app4.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Personal Goals
+              <span class="code">&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/tootall123/Zeppelynn-Applications"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="app6.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Customization
+              <span class="code">&gt;</span>
+            </p>
+          </a>
+        </div>
+      
+        <a
+          href="https://github.com/tootall123/Zeppelynn-Applications"
+          class="btn btn-show-all"
+          target="_blank"
+          >Show all<i class="fas fa-chevron-right"></i
+        ></a>
+      </section>
+      
+      <!-- END PROJECTS SECTION -->
+      
+      <!-- START CONTACT SECTION -->
+      
+      <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+          <h2>Additional Support</h2>
+		  <!--Link Github page -->
+          <p class="contact1">Contact Information</p>
+        </div>
+        <div class="contact-links"> 
+          <a
+            id="profile-link"
+            href="https://github.com/tootall123/Zeppelynn-Applications"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i> GitHub</a
+          > 
+          <a href="https://github.com/tootall123/Zeppelynn-Applications" class="btn contact-details"
+            ><i class="fas fa-at"></i> Issues</a
+          >
+          <a href="https://github.com/tootall123/Zeppelynn-Applications" class="btn contact-details"
+            ><i class="fas fa-mobile-alt"></i> Pull Request</a
+          >
+        </div>
+      </section>
+      
+      <!-- END CONTACT SECTION -->
+      
+      <!-- START FOOTER SECTION -->
+      
+      <footer> 
+        <p>
+         Copyright
+          </a>
+        </p>
+      </footer>
+      
+
+
+
+
+    </body>
+ </html>
