@@ -16,6 +16,10 @@ Most current and relavent uploads for the project are located in the "Final-Proj
 
 Please Check "Final-Project" folder for any images or other sources relavent to the project.
 
+Styling is embedded for Featured.html About.html Learning.html 
+
+External styling for Home.html 
+
 
 
 
