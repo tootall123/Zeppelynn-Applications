@@ -10,11 +10,11 @@ Project is due at the end of term for final project(Jan 18th 2022).
 
 Website is currenty under construction.
 
------------------------------*FINAL-PROJECT*------------------------------------------------------------------------------------------------
+-----------------------------*FINAL-PROJECT*-----------------------------------------------------------------------------------------------
 
-Most current and relavent uploads for the project are located in the "Final-Project" folder.
+Most current and relavent uploads for the project are located in the "Final" folder.
 
-Please Check "Final-Project" folder for any images or other sources relavent to the project.
+Please Check "Final" folder for any images or other sources relavent to the project.
 
 Styling is embedded for all 4 documents so there are no additional style.css docs needed. Only additional documents required are located in the Media Folder within Final Project.
 
@@ -31,10 +31,6 @@ Source DIR *FINAL*
 
 ![image](https://user-images.githubusercontent.com/77269940/147722645-597b7f23-dc22-4256-806d-ab303ee0be71.png)    
 
-<img alt=”React” src=”https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-
-[![tootall123's github stats](https://github-readme-stats.vercel.app/api?username=yushi1007)](https://github.com/yushi1007)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yushi1007&layout=compact)](https://github.com/yushi1007)
 
 
 
