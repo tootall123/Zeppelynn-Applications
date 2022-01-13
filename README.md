@@ -10,13 +10,20 @@ Project is due at the end of term for final project(Jan 18th 2022).
 
 Website is currenty under construction.
 
------------------------------FINAL-PROJECT----------------------------------------
+-----------------------------FINAL-PROJECT------------------------------------------------------------------------------------------------
 
 Most current and relavent uploads for the project are located in the "Final-Project" folder.
 
 Please Check "Final-Project" folder for any images or other sources relavent to the project.
 
-Styling embedded for all 4 documents so no style.css documents are needed. Only additional documents needed are located in the Media Folder.
+Styling is embedded for all 4 documents so there are no additional style.css docs needed. Only additional documents required are located in the Media Folder within Final Project.
+
+----------------------------------------FINAL-UPDATE--JAN-12-22----------------------------------------------------------------------------
+
+Completed and finished documents uploaded. 
+Previous versions and older uploads of final-project webpages purged and removed for oragnizational purposes. 
+Media folder uploaded with relavent and current images and content needed for the site. 
+All documentation will be zipped (Final-Project.zip) which will be uploaded to this repo and uploaded to CSU blackboard for CYB 4303. 
 
 
 
