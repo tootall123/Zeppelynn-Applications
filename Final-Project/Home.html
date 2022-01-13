@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style1.css">
     <title>Landing Page</title>
     <style>
         :root {
   --main-white: #f0f0f0;
-  --main-red: #00ff88;
-  --main-blue: #333537;
+  --main-green: #00ff88;
+  --main-black: #333537;
   --main-gray: #333537;
 }
 
@@ -28,19 +27,11 @@
 
 html {
   box-sizing: border-box;
-
-  
+  font-family: 'ZCOOL XiaoWei', serif !important;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-/* A 
-*/
-
-/* 
- * As an example: a breakpoint at 980px
- * 980px / 16px = 61.25em
-*/
 
 
 @media (max-width: 75em) {
@@ -112,7 +103,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--main-red);
+  background: var(--main-green);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -139,7 +130,7 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
+  background: var(--main-black);
   border-radius: 20px;
 }
 
@@ -160,7 +151,7 @@ img {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-red);
+  color: var(--main-green);
 }
 
 /* Projects section */
@@ -168,7 +159,7 @@ img {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--main-blue);
+  background: var(--main-black);
 }
 
 .projects-section-header {
@@ -250,7 +241,7 @@ img {
 }
 
 .btn-show-all:hover {
-  background: var(--main-red);
+  background: var(--main-green);
 }
 
 .btn-show-all:hover > i {
@@ -318,7 +309,7 @@ footer {
   justify-content: space-evenly;
   padding: 2rem;
   background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
+  border-top: 4px solid var(--main-green);
 }
 
 footer > p {
@@ -354,6 +345,33 @@ Center img on additional pages*/
         .contact1{
             color:#00ff88;
         }
+		.first h1 {
+  color: white;
+}
+
+.first a {
+  color: white !important;
+}
+.social li{
+  font-size: 17px;
+  display: inline-block;
+  float: none;
+  padding-right: 1%;
+}
+
+li a{
+  color: white !important;
+}
+
+nav{
+  margin-top: 6%;
+  border-top: 1px solid white;
+}
+
+ a h2 {
+   color: white;
+ }
+
 
     </style>
    
@@ -522,10 +540,10 @@ Center img on additional pages*/
             ><i class="fab fa-github"></i> GitHub</a
           > 
           <a href="https://github.com/tootall123/Zeppelynn-Applications" class="btn contact-details"
-            ><i class="fas fa-at"></i> Issues</a
+            ><i class="fas fa-at"></i> Communities</a
           >
           <a href="https://github.com/tootall123/Zeppelynn-Applications" class="btn contact-details"
-            ><i class="fas fa-mobile-alt"></i> Pull Request</a
+            ><i class="fas fa-mobile-alt"></i> Get Involved</a
           >
         </div>
       </section>

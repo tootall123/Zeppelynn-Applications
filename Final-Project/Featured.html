@@ -18,10 +18,14 @@
             position: sticky;
             top: 0;
             cursor: pointer;
+            background-color:#00ff88
+        }
+        .navbar background{
+            background-color:#00ff88;
         }
  
         .background {
-            background: #333537;
+            background: #00ff88;
             background-blend-mode: darken;
             background-size: cover;
         }
@@ -50,16 +54,17 @@
  
         .nav-list li a {
             text-decoration: none;
-            color: #00ff88;
+            color: #f0f0f0;
         }
  
         .nav-list li a:hover {
-            color: grey;
+            color: #333537;
         }
  
         .rightnav {
             width: 30%;
             text-align: right;
+            color: #f0f0f0;
         }
  
         #search {
@@ -67,17 +72,19 @@
             font-size: 17px;
             border: 2px solid grey;
             border-radius: 9px;
+            color: #f0f0f0;
         }
  
         .firstsection {
-            background-color: rgb(1, 185, 139);
+            background-color: #333537;
             height: 400px;
+        
         }
  
         .secondsection {
-            background-color: rgb(7, 131, 110);
+            background-color: #333537;
             height: 400px;
-            background-image: url('http://ocw.uwc.ac.za/wp-content/uploads/1221025/teal-curves-turquoise-vector-hd-wallpaper-preview.jpg?download=now');
+            background-image: url('#');
             background-color: transparent;
         }
  
@@ -105,7 +112,7 @@
  
         .secondhalf img {
             width: 70%;
-            border: 4px solid rgb(0, 255, 115);
+            border: 4px solid #333536;
             border-radius: 150px;
             display: block;
             margin: auto;
@@ -124,10 +131,10 @@
         .btn {
             padding: 8px 20px;
             margin: 7px 0;
-            border: 2px solid rgb(88, 196, 163);
-            border-radius: 8px;
-            background: none;
-            color: #00ff88;
+            border: 2px solid #333537;
+            border-radius: 10px;
+            background: #333537;
+            color: #f0f0f0;
             cursor: pointer;
         }
  
@@ -144,8 +151,8 @@
             max-width: 100%;
             margin: auto;
             color:rgb(7, 24, 18);
-            background-color: rgb(3, 151, 95);
-            background-image: url('https://external-preview.redd.it/XX_1lR0VLOYANeHAM_J47BpcjZTwDhTz4PWkkyY9FRs.jpg?auto=webp&s=f625a412f14c03ec1dcdc7fe1b88030707299141');
+            background-color: #333537;
+            background-image: url('#');
             background-color: transparent;
         }
  
@@ -201,22 +208,27 @@
 
 table {
   border-collapse: collapse;
-  background-color: white;
+  background-color: #333537;
   overflow: hidden;
   width: 500px;
   border-radius: 10px;
+  float: right;
+  border-color:#00ff88;
+  border-width: 2px;
+ 
 }
 
 th, td {
-  font-family:'Motnserrat',sans-serif;
+  font-family:'Motnserrat',sans-serif; color:#f0f0f0;
   text-align: left;
   font-size: 12px;
   padding: 10px;
+  border: 2px solid #00ff88;
 }
 
 th {
-  background-color: #7691ab;
-  color: white;
+  background-color: #00ff88;
+  color: #f0f0f0;
 }
     </style>
 </head>
@@ -243,9 +255,9 @@ th {
     <section class="firstsection">
         <div class="box-main">
             <div class="firstHalf">
-                <h1 class="text-big" id="web">Zeppelynn Applications</h1>
+                <h1 class="text-big" id="web" style="color:white">Zeppelynn Applications</h1>
                 <h2>&nbsp;</h2>
-                <p class="text-small">
+                <p class="text-small" style="color:white">
                     Learning and Development for neurologically diverse children through applications and games. 
                 </p>
             
@@ -256,7 +268,7 @@ th {
         </div>
         </div>
     </section>
- 
+    <hr width="100%" color="#00ff88" size="4">
     <section class="secondsection">
         <div class="box-main">
             <div class="firstHalf">
@@ -270,17 +282,16 @@ th {
  
             </div>
             <div class="thumbnail">
-                <img src= "dev.png" width="180px" height="210px" alt="Puzzle Pieces">
+                <img src= "autism6.png" width="180px" height="210px" alt="Puzzle Pieces">
         </div>
     </section>
- 
+    <hr width="100%" color="#00ff88" size="4">
     <section class="section">
         <div class="paras">
-            <h1 class="sectionTag text-big">Projects</h1>
+            <h1 class="sectionTag text-big" style="color:white">Projects</h1>
             <h2>&nbsp;</h2>
  
-            <p class="sectionSubTag text-small" style='line-height: 20px'>
-                <img src= 'communication.png' width="50px" height="50px" style='vertical-align: middle' />
+            <p class="sectionSubTag text-small" style="color:white">
                    Communication Social-Awareness Visual Schedules Anger Management Organization
             </p>
             <h3>&nbsp;</h3>
@@ -296,51 +307,54 @@ th {
             <img src= "img.png" alt="Project Icon">
         </div>
     </section>
-   
+    <hr width="100%" color="#00ff88" size="4">
     <div class="container">
+        <h2>&nbsp</h2>
+        <p class="text-big" style="color:white">Coming Soon</p>
+        <h2>&nbsp</h2>
         <div class="table">
             <table>
                 <tr>
-                  <th>Items</th>
+                  <th>Application</th>
+                  <th>ASD</th>
+                  <th>SPD</th>
                   <th>Status</th>
-                  <th>Month</th>
-                  <th>Sales</th>
                 </tr>
                 <tr>
-                  <td>Iphone X</td>
-                  <td>Pending</td>
-                  <td>January</td>
-                  <td>$50,000.00</td>
+                  <td>Where Are We Going</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
                 </tr>
                 <tr>
-                  <td>Samsung J10</td>
-                  <td>Arrived</td>
-                  <td>February</td>
-                  <td>$120,000.00</td>
+                  <td>Custom Cards</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
                 </tr>
                 <tr>
-                  <td>Realme 5i</td>
-                  <td>Arrived</td>
-                  <td>March</td>
-                  <td>$25,000.00</td>
+                  <td>MyFriends</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
                 </tr>
                 <tr>
-                  <td>Samsung Galaxy A20</td>
-                  <td>On Way</td>
-                  <td>April</td>
-                  <td>$90,000.00</td>
+                  <td>See My Week</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
                 </tr>
                 <tr>
-                  <td>Xiaomi Redmi Note 8 Pro</td>
-                  <td>Arrived</td>
-                  <td>November</td>
-                  <td>$25,000.00</td>
+                  <td>Animals Animals Animals</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
                 </tr>
                 <tr>
-                  <td>Oppo A1k</td>
-                  <td>Return</td>
-                  <td>December</td>
-                  <td>$35,000.00</td>
+                  <td>My Feelings</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
                 </tr>
               </table>
               
@@ -350,12 +364,17 @@ th {
                 background-color:#333537;
             }
         </style>
-        <h4>Testing</h4>
+        <h4></h4>
         <p class="test" style="color:white"></p>
       </div>
-      <img src="zepp-no-backround.png" alt="Zepp" style="width:50%">
+      <img src="zepp-no-backround.png" alt="Zepp" style="width:25%" image-align:>
       <hr width="100%" color="#00ff88" size="4">
-    <footer class="background">
+    <footer class="background1">
+        <style>
+            .background1{
+                color:#333537;
+            }
+        </style>
         
             <p class="text-footer">
                 Copyright ©-All rights are reserved
