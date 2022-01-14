@@ -25,11 +25,11 @@ Previous versions and older uploads of final-project webpages purged and removed
 Media folder uploaded with relavent and current images and content needed for the site. 
 All documentation will be zipped (Final-Project.zip) which will be uploaded to this repo and uploaded to CSU blackboard for CYB 4310. 
 
-----------------------------*SECOND-FINAL-UPDATE*---------------------------------------------------------------------------------
+-------------------------*SECOND-FINAL-UPDATE*---------------------------------------------------------------------------------
 Issue with source dir for images while test on mobile devices. Img src has been updated and uploaded.
 Source DIR *FINAL*
 
---------------------------------*FINAL-FINAL-UPDATE------------------------------------
+-------------------------------*FINAL-FINAL-UPDATE*------------------------------------
 Project:pages,images,links functional and final zip folder has been uploaded with updated Final-Project content. Final-Project2.zip
 
 
