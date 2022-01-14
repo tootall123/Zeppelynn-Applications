@@ -29,7 +29,8 @@ All documentation will be zipped (Final-Project.zip) which will be uploaded to t
 Issue with source dir for images while test on mobile devices. Img src has been updated and uploaded.
 Source DIR *FINAL*
 
--------------------------------*FINAL-FINAL-UPDATE*------------------------------------
+-------------------------------*FINAL-FINAL-UPDATE*----------------------------------------------------------------------
+
 Project:pages,images,links functional and final zip folder has been uploaded with updated Final-Project content. Final-Project2.zip
 
 
