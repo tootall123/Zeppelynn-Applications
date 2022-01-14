@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About</title>
+    
+        <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #333537;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  border-radius: 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(22, 3, 3);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #555;
+  
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.row {
+    background-color:#00ff88;
+}
+.navbar {
+  width: 100%;
+  background-color: #333537;
+  overflow: auto;
+  
+  
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #00ff88;
+  border-radius: 20px;
+
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #00ff88;
+  border-radius: 20px;
+}
+ 
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    
+  }
+}
+.text-small{
+    font-size:12px
+}
+.footer{
+    background-color: #333537;
+}
+        </style>
+    </head>
+        
+    <body>
+        <div class="navbar">
+            <a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="Featured.html"><i class="fa fa-fw fa-search"></i> Featured</a>
+            <a href="https://github.com/tootall123/Zeppelynn-Applications"><i class="fa fa-fw fa-envelope"></i> Download</a>
+            <a href="Learning.html"><i class="fa fa-fw fa-user"></i> Learning</a>
+          </div>
+        <div class="about-section">
+            <h1>About Us Page</h1>
+            <p>We are a non-profit organization dedicated to helping neurologically diverse children and their families learn and interact through open-source mobile media.</p>
+            <p class="text-small">Contributions and Donations are welcome and appreciated.</p>
+          </div>
+          
+          <h2 style="text-align:center">Our Team</h2>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="zepp.jpeg" alt="Logo" style="width:100%">
+                <div class="container">
+                  <h2>Zeppelynn Applications LLC</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p>A non-profit company dedicated to the development and production of open-source applications and software for neurologically diverse children and their families.</p>
+                  <p>Visit our Github</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="example.jpeg" alt="Example" style="width:100%">
+                <div class="container">
+                  <h2>Partnership</h2>
+                  <p class="title">Example Partnership LLC</p>
+                  <p>Example Partnership LLC aids in research and development of technologies that assist neuro-diverse individuals.</p>
+                  <p>Partnership@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="example2.jpeg" alt="Company2" style="width:100%">
+                <div class="container">
+                  <h2>Example Partner</h2>
+                  <p class="title">Designer</p>
+                  <p>Example Company 2.</p>
+                  <p>Partnering with Zeppelynn Applications and Development to bring children and families state of the art applications and software.</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    
+    </body>
+    </head>
+</html>
+
+
+
+
+
+

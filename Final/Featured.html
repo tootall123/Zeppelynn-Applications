@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Featured</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+            background-color:#00ff88
+        }
+        .navbar background{
+            background-color:#00ff88;
+        }
+ 
+        .background {
+            background: #00ff88;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: #f0f0f0;
+        }
+ 
+        .nav-list li a:hover {
+            color: #333537;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+            color: #f0f0f0;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+            color: #f0f0f0;
+        }
+ 
+        .firstsection {
+            background-color: #333537;
+            height: 400px;
+        
+        }
+ 
+        .secondsection {
+            background-color: #333537;
+            height: 400px;
+            background-image: url('#');
+            background-color: transparent;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+            border-radius: 10px;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid #333536;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid #333537;
+            border-radius: 10px;
+            background: #333537;
+            color: #f0f0f0;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            margin: auto;
+            color:rgb(7, 24, 18);
+            background-color: #333537;
+            background-image: url('#');
+            background-color: transparent;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: #00ff88;
+        }
+        .box img{
+            width: 25px;
+            display: block;
+            border-radius: 20px;
+        }
+
+        .container {
+            width: 2px;
+            height: 2px;
+            display: table;
+            background-color: #333537;
+        }
+
+        .container .image-container {
+            text-align: center;
+            vertical-align: middle;
+            display: table-cell;
+        }
+
+        .container .image-container img {
+            max-width: 2px;
+            max-height: 2px;
+        }
+
+table {
+  border-collapse: collapse;
+  background-color: #333537;
+  overflow: hidden;
+  width: 500px;
+  border-radius: 10px;
+  float: right;
+  border-color:#00ff88;
+  border-width: 2px;
+ 
+}
+
+th, td {
+  font-family:'Motnserrat',sans-serif; color:#f0f0f0;
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+  border: 2px solid #00ff88;
+}
+
+th {
+  background-color: #00ff88;
+  color: #f0f0f0;
+}
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "zepp-no-backround.png">
+            </div>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Learning.html">Learning</a></li>
+            <li><a href="https://github.com/tootall123/Zeppelynn-Applications">Download</a></li>
+            <li><a href="About.html">About</a></li>
+       
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web" style="color:white">Zeppelynn Applications</h1>
+                <h2>&nbsp;</h2>
+                <p class="text-small" style="color:white">
+                    Learning and Development for neurologically diverse children through applications and games. 
+                </p>
+            
+ 
+            </div>
+            <div class="thumbnail">
+                <img src= "android.png" width="180px" height="210px" alt="Puzzle Pieces">
+        </div>
+        </div>
+    </section>
+    <hr width="100%" color="#00ff88" size="4">
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="program" style="color:white">
+                    Development</h1>
+                    <h2>&nbsp;</h2> 
+                <p class="text-small" style="color:white">
+                    Zeppelynn Application supports and develops  software for children of all ages and aims to provide unique and enjoyable methods of learning and assisting neurologically diverse children and their families through fun, interactive, and open-source applications and tools compatible with all most major operating systems and mobile devices. 
+                </p>
+ 
+ 
+            </div>
+            <div class="thumbnail">
+                <img src= "autism6.png" width="180px" height="210px" alt="Puzzle Pieces">
+        </div>
+    </section>
+    <hr width="100%" color="#00ff88" size="4">
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big" style="color:white">Projects</h1>
+            <h2>&nbsp;</h2>
+ 
+            <p class="sectionSubTag text-small" style="color:white">
+                   Communication Social-Awareness Visual Schedules Anger Management Organization
+            </p>
+            <h3>&nbsp;</h3>
+        <div id="container">
+            <div class="image-container">
+                <img src="github2.png" width="80px" height="80px" alt="Github" />
+            </div>
+        </div>
+ 
+        </div>
+ 
+        <div class="thumbnail">
+            <img src= "img.png" alt="Project Icon">
+        </div>
+    </section>
+    <hr width="100%" color="#00ff88" size="4">
+    <div class="container">
+        <h2>&nbsp</h2>
+        <p class="text-big" style="color:white">Coming Soon</p>
+        <h2>&nbsp</h2>
+        <div class="table">
+            <table>
+                <tr>
+                  <th>Application</th>
+                  <th>ASD</th>
+                  <th>SPD</th>
+                  <th>Status</th>
+                </tr>
+                <tr>
+                  <td>Where Are We Going</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
+                </tr>
+                <tr>
+                  <td>Custom Cards</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
+                </tr>
+                <tr>
+                  <td>MyFriends</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
+                </tr>
+                <tr>
+                  <td>See My Week</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
+                </tr>
+                <tr>
+                  <td>Animals Animals Animals</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
+                </tr>
+                <tr>
+                  <td>My Feelings</td>
+                  <td>X</td>
+                  <td>X</td>
+                  <td>In-Development</td>
+                </tr>
+              </table>
+              
+        </div>
+        <style>
+            body {
+                background-color:#333537;
+            }
+        </style>
+        <h4></h4>
+        <p class="test" style="color:white"></p>
+      </div>
+      <img src="zepp-no-backround.png" alt="Zepp" style="width:25%" image-align:>
+      <hr width="100%" color="#00ff88" size="4">
+    <footer class="background1">
+        <style>
+            .background1{
+                color:#333537;
+            }
+        </style>
+        
+            <p class="text-footer">
+                Copyright ©-All rights are reserved
+        </p>
+        
+ 
+    </footer>
+</body>
+ 
+</html>
