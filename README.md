@@ -16,18 +16,18 @@ Most current and relavent uploads for the project are located in the "Final" fol
 
 Please Check "Final" folder for any images or other sources relavent to the project.
 
-Styling is embedded for all 4 documents so there are no additional style.css docs needed. Only additional documents required are located in the Media Folder within Final Project.
+Styling is embedded for all 4 documents so there are no additional style.css docs needed. Only additional documents required are located in the "Final" folder or the Media Folder within "Final Project".
 
 ------------------------------*FINAL-UPDATE--JAN-12-22*----------------------------------------------------------------------------
 
 Completed and finished documents uploaded. 
-Previous versions and older uploads of final-project webpages purged and removed for oragnizational purposes. 
-Media folder uploaded with relavent and current images and content needed for the site. 
-All documentation will be zipped (Final-Project.zip) which will be uploaded to this repo and uploaded to CSU blackboard for CYB 4310. 
+Most previous versions and older uploads of final-project webpages purged and removed for oragnizational purposes. 
+Final folder uploaded with relavent and current images and content needed for the site. 
+All documentation will be zipped (Final-Project2.zip) which will be uploaded to this repo and uploaded to CSU blackboard for CYB 4310. 
 
 -------------------------*SECOND-FINAL-UPDATE*---------------------------------------------------------------------------------
 
-Issue with source dir for images while test on mobile devices. Img src has been updated and uploaded.
+Issue with source dir for images while testing on mobile devices. Img src has been updated and uploaded.
 Source DIR *FINAL*
 
 -------------------------------*FINAL-FINAL-UPDATE*----------------------------------------------------------------------
